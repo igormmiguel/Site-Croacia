@@ -3,12 +3,37 @@
     padding: 0;
   }
   
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem;
+  }
+  
+.cabecalho-imagem {
+    height: 4.5rem;
+  }
+  
+.cabecalho-menu {
+    display: flex;
+    gap:2rem;
+  }
+  
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 1.125rem;
+  }
+  
   body {
     background-color: #cfd8dc;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
   
   .principal {
